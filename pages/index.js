@@ -27,32 +27,25 @@ export default function Home() {
               <p>Stay informed with docs from some of your favorite software</p>
             </a>
           </Link>
-
           <Link href="/homework">
             <a className="card homework">
               <h3>Homework &rarr;</h3>
               <p>Learn about Next.js in an interactive course with quizzes!</p>
             </a>
           </Link>
-
-          <a
-            href="https://github.com/zeit/next.js/tree/master/examples"
-            className="card projects"
-          >
-            <h3>Projects &rarr;</h3>
-            <p>View our collection of student projects and tools</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Classroom &rarr;</h3>
-            <p>
-              Browse past recordings!<br></br>
-              Live weekends 9:00 - 12pm
-            </p>
-          </a>
+          <Link href="/projects">
+            <a className="card projects">
+              <h3>Projects &rarr;</h3>
+              <p>View our collection of student projects and tools</p>
+            </a>
+          </Link>
+          <Link href="/classroom">
+            <a className="card classrooms">
+              <h3>Classroom &rarr;</h3>
+              <p>Check out our devops training<br></br>
+              Sign Up now!</p>
+            </a>
+          </Link>
         </div>
       </main>
 
